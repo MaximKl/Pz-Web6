@@ -1,0 +1,530 @@
+@import "variables";
+@import "mixins";
+*{
+    margin:0px;
+    padding:0px;
+}
+a{
+    text-decoration: none;
+}
+li{
+    text-decoration:none;
+    list-style:none;
+}
+body{
+    font-family: $fnt;
+    background:$light;
+}
+.logo{
+    background: map-get($col,"main");
+    width: 100%;
+    height: 120px;
+    display: flex;
+}
+.log1{
+width: 1%;
+padding-top: 17px;
+padding-left: 110px;
+transition: all 0.2s ease;
+&:hover{
+    padding-top: 25px;
+    transition: all 0.2s ease;
+    }
+}
+.log2{
+    margin-top: 30px;
+    margin-left:500px;
+    padding-right: 150px;
+    color:$dark;
+    font-size: 25px;
+    overflow: hidden; 
+    white-space: nowrap; 
+ a{
+    color: #ffff;
+    text-shadow: black 0 0 3px;
+    }
+}
+input[data-rule].valid{
+    border:4px solid green;
+}
+input[data-rule]{
+    border:2px solid red;
+}
+    .log3{
+        padding-right: 15px;
+        color:$dark;
+        padding-right: 120px;;
+        font-size: 15px;
+        margin-top: 39px;
+        h3{
+            cursor: pointer;
+        }
+        a{
+            font-size: 18px;
+            color:$dark;
+        }
+        b{
+            text-shadow: black 0 0 2px;
+            font-size: 30px;
+            color: #ffff;
+        }
+    }
+    .vhod{
+        display: none;
+        padding-right: 15px;
+        color:#85f6ad;
+        text-shadow: black 0 0 2px;
+        padding-right: 120px;;
+        font-size: 30px;
+        margin-top: 39px;
+    }
+    .registr{ 
+        background-color:$yel-col;
+        width: 320px;
+        height: 650px;
+        margin-top: 30px;
+        padding: 10px;
+        border-radius: 30px;
+        display: none;
+        position: absolute;
+        animation: mymove 1s;
+    input{
+        margin-top: 10px;
+        @include inp;
+        background: #ededeb;
+    }
+    c{
+        font-size: 14px;
+    }
+}
+.registr label {
+    display: inline-block;
+    margin-right:125px;
+    font-size: 18px;
+}
+.form-control i {
+	position: relative;
+	bottom: 30px;
+    left: 270px;
+    visibility: hidden;
+}
+.form-control input:focus {
+	outline: 0;
+	border-color: #777;
+}
+.form-control.success input {
+	border-color: #2ecc71;
+}
+
+.form-control.error input {
+	border-color: #e74c3c;
+}
+.form-control small{
+    color: #e74c3c;
+	position: relative;
+	bottom: 0;
+	left: 0;
+	visibility: hidden;
+}
+.form-control.success i.fa-check-circle {
+	color: #2ecc71;
+	visibility: visible;
+}
+.form-control.error i.fa-exclamation-circle {
+	color: #e74c3c;
+	visibility: visible;
+}
+.form-control.error small {
+	visibility: visible;
+}
+
+@keyframes mymove {
+    from {margin-top: -10px;}
+    to {margin-top: 30px;}
+  }
+.back{
+    width: 100%;
+    height: 100%;
+    background:$light;
+}
+.buttons{
+            input{
+                margin-top:30px;
+                margin-bottom: 7px;
+                @include inp;
+                cursor: pointer;
+                background: #85f6ad;
+                transition: all 0.4s ease;
+                &:hover{
+                    background: #00ff59;
+                    transition: all 0.4s ease;
+                }
+            }
+}
+.logbut{
+    margin-top:70px;
+    margin-bottom:7px;
+    @include inp;
+    cursor: pointer;
+}
+        .log4{
+         text-align: center;
+         height: 120px;
+         line-height: 40px;
+         font-size: 20px;
+         text-shadow: black 0 0 1px;
+         color:$dark;
+         margin: auto;
+        a{
+            color: #000;
+        }
+    }
+            .log4a a{
+                @include log44;
+            }
+            .log4b a{
+                @include log44;
+            }
+    nav{
+        margin:50px;
+        padding-right: 180px;
+    }
+    .topnav{
+        background-color: #ededeb;
+        display: flex;
+        justify-content: space-around;
+     a{
+        color:$dark;
+        font-size: 30px;
+        transition: all 0.4s ease;
+    &:hover{
+        border-bottom: 4px solid #000;
+        transition: all 0.3s ease;
+        color: #ffff;
+        text-shadow: black 0 0 3px;
+        background: map-get($col,"main");
+        }
+    }
+}
+    .img{
+        width: 100%;
+        max-width: 100%;
+        transition: all 1.5s ease 0s;
+        margin-top:-10px;
+    }
+    .img._active{
+        margin-top:10px;
+        opacity: 0.70;
+        transition: all 1.5s ease 0s;
+        }
+    .vis{
+        width: 45%;
+        color: map-get($col,"main");
+        text-shadow: black 0 0 3px;
+        text-align: left;
+        font-size: 50px;
+        margin-right: 500px;
+        opacity:0;
+        transition: all 2s ease 0s;
+    }
+    .vis._active{
+        margin-top: 20px;
+        margin-left: 160px;
+            opacity:1;
+            transition: all 2s ease 0s;
+        }
+
+    .tele
+    {
+        width: 40%;
+        height: 300px;
+        margin-left:110px;
+        padding-left: 20px;
+        background: $mdark;
+        color: #ffff;
+        text-shadow: black 0 0 2px;
+        text-align: left;
+        font-size: 25px;
+        line-height: 70px;
+        transform: translate(0px,20%);
+        opacity: 0;
+        transition: all 2s ease 0s;
+    }
+    .tele._active{
+  
+        transform: translate(0px,0px);
+        opacity: 1;
+        transition: all 2s ease 0s;
+    }
+    
+    .lupa{
+    position: absolute;
+    margin-left: 1735px;
+    margin-top: -363px;
+    float: left;
+    }
+    .lupawh{
+        width: 30px;
+        height: 30px;
+    &:hover{
+    padding-left: 5px;
+    padding-top: 3px;
+    transition: all 0.25s ease;
+    }
+}
+    .search1{
+        color:$mdark;
+        margin-top:-370px ;
+        float: left;
+        margin-left: 970px;
+        height:370px;
+    }
+    input {
+        @include search;
+        color:$dark;
+        background: none;
+        font-size: 20px;
+       }
+    .search {
+        @include search;
+        color:$mdark;
+        border: 4px solid #000; 
+    }
+    .map {
+        width: 800px;
+        height: 245px;
+        opacity: 0;
+        transition: all 2s ease 0s;
+    }
+    .map._active{
+        opacity: 1;
+        transition: all 2s ease 0s;
+    }
+    .tar{
+        margin-top:90px;
+        margin-bottom:70px;
+        font-size: 50px;
+        color:#3e3e3e;
+        margin-left:600px;
+        a{
+        padding: 10px;
+        border-top: 5px solid $mdark;
+        border-left: 5px solid $mdark;
+        border-right: 5px solid $mdark;
+        border-bottom: 5px solid $mdark;
+        background-color: $yel-col;
+        }
+    }
+    .my_class{
+        width: 44%;
+        margin-top:500px;
+        h4{
+            font-size: 20px;
+            margin-top:10px;
+        }
+    }
+    .acc{
+        margin-left:110px;
+    }
+    .ta{
+        width: 800px;
+        margin-left:990px;
+        margin-top:-300px;
+       position: absolute;
+        p{
+            margin-left:200px;
+            font-size: 20px;
+        }
+    }
+    .vi{
+        margin-left:-120px;
+    }
+    .big img  {
+        background-image: url("images/loader.gif");
+        margin-left: 60px;
+        width: 600px;
+        height: 400px;
+        margin-bottom: 18px;
+    }
+    .jig div img{
+        margin-left: 60px;
+        width: 600px;
+        height: 400px;
+        margin-bottom: 18px;
+    }
+    .jig h2{
+        margin-left:280px;
+        margin-bottom: 10px;
+    }
+    .small a img {
+        width: 100px;
+        height: 70px;
+        margin-right: 45px;
+        z-index: 20;
+    }   
+    .small table2{
+    width: 800px;
+    margin-left:-30px;
+    margin-top:73px;
+    position: absolute;
+    font-size: 17px;
+    tr2 td2 {
+        margin-left:48px;
+    }
+}
+.time h2{
+    margin-top:17px;
+    margin-left:120px;
+    margin-bottom:17px;
+   color :#3e3e3e;
+   font-size: 30px;
+
+}
+.sort{
+    width: 300px;
+    margin-left: 320px;
+    cursor: pointer;
+}
+.small table2 tr3 td2{
+    margin-left:35px;
+}
+    .vib{
+        float: left;
+        margin-left: 100px;
+        color: $yel-col;
+        text-shadow: black 0 0 2px;
+        font-size: 30px;
+        transition: all 1.5s ease 0s;
+        opacity: 0.5;
+        margin-top: 200px;
+    }
+    .vib._active{
+        transition: all 1.5s ease 0s;
+        opacity: 1;
+        margin-top:120px;
+    }
+    .vibor{
+        width:588px;
+        float: left;
+        font-size: 40px;
+        line-height: 100px;
+        transition: all 1s ease 0s;
+        opacity: 0.5;
+        margin-top: 40px;
+        li{
+            background-color:$light;
+        }
+        ul li a{
+            border-top: 3px solid $mdark;
+            border-left: 3px solid $mdark;
+            border-right: 3px solid $mdark;
+            border-bottom: 3px solid $mdark;
+            background-color:$yel-col;
+        }
+        li ul{
+            background-color:$light;
+            width:350px;
+            text-align: right;
+            font-size: 30px;
+            line-height: 60px;
+            li ul { 
+                text-align: center;
+                width: 310px;
+                 line-height: 60px; 
+             }
+        }
+        ul li ul a{
+            line-height: 20px;
+        }
+    ul li a{
+        color:#3e3e3e;
+        transition: all 0.3s ease;
+    &:hover{
+    transition: all 0.2s ease;
+    background: $yel-col;
+    box-shadow: 1px 5px 10px -5px black;
+    }
+}
+    li:hover>ul{
+        transition: all 0.5s ease;
+        display: block;
+    }
+}
+.vibor._active{
+    transition: all 1s ease 0s;
+    margin-left:280px;
+    opacity: 1;
+}
+    .zakaz{
+        margin-left:1420px;
+        padding-top: 300px;
+        font-size: 55px; 
+        margin-top:400px;
+        margin-bottom:100px;
+    a{ 
+        background: #85f6ad;
+        color: #ffff;
+        transition: all 0.25s ease;
+        padding: 30px;
+        &:hover{
+            font-size:65px;
+            transition: all 0.25s ease;
+        }
+    }
+}
+    table{
+        width: 1600px;
+        text-align: center;
+        font-size: 18px;
+        margin-left: 120px;
+        height: 400px;
+    td{
+        padding-left: 50px;
+    }
+}
+    .ssilki{
+        transition: all 0.25s ease;
+        width: 100px;
+        height: 100px;
+        align-content: center;
+        &:hover{
+        padding: 10px ;
+        transition: all 0.25s ease;
+    }
+}
+.ssilki._active{
+    width: 150px;
+    height: 150px;
+    transition: all 1s ease;
+}
+    .bottom{ 
+        background: $mdark;
+        width: 100%;
+        height: 300px;
+        display: flex;
+        margin-top: 130px;
+    }
+        .bot{
+            float: left;
+            padding-left: 100px;
+            @extend %bots;
+        }
+        .bot1{
+            text-align: center;
+            @extend %bots;
+            a {
+            color: black;
+            transition: all 0.25s ease;
+            &:hover {
+            transition: all 0.25s ease;
+            font-size: 50px;
+        }
+    }
+}
+        .bot2 h3{ 
+            float: left;
+            width: 400px;
+            margin-right: 250px;
+            text-align: right;
+            @extend %bots;
+        }

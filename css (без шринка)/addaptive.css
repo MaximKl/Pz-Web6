@@ -1,0 +1,354 @@
+@media only screen and ( max-width: 1366px ) {
+    .log1{
+        width: 1%;
+        padding-top: 17px;
+        padding-left: 50px;
+        transition: all 0.2s ease;
+        }
+        .log2{
+            margin-top: 30px;
+            margin-left:300px;
+            padding-right: 150px;
+            color:#5f5f5f;
+            font-size: 20px;
+            overflow: hidden; 
+            white-space: nowrap; 
+            }
+            .log2 a{
+            color: #ffff;
+            text-shadow: black 0 0 3px;
+            }
+            .log3{
+                padding-right: 50px;
+                color:#5f5f5f;
+                font-size: 15px;
+                cursor: pointer;
+                margin-top: 48px;
+                }
+                .log4{
+                 text-align: center;
+                 height: 120px;
+                 line-height: 40px;
+                 font-size: 15px;
+                 text-shadow: black 0 0 1px;
+                 color: #5f5f5f;
+                 margin: auto;
+                }
+                .log4 a{
+                    color: #000;
+                }
+                .log3 a{
+                    text-shadow: black 0 0 2px;
+                    font-size: 15px;
+                    color: #ffff;
+                }
+                .log4a a{
+                    text-shadow: black 1px 1px 3px;
+                    color:#ffff;
+                }
+                .log4b a{
+                    text-shadow: black 1px 1px 3px;
+                    color:#ffff;
+                }
+                nav{
+                    margin:50px;
+                    padding-right: 20px;
+                }
+                .topnav{
+                    background-color: #ededeb;
+                    display: flex;
+                    justify-content: space-around;
+                }
+                .topnav a{
+                    color:#5f5f5f;
+                    font-size: 30px;
+                    transition: all 0.4s ease;
+                }
+                .vis{
+                    margin-top: 20px;
+                    margin-left: 160px;
+                    width: 45%;
+                    color: #faee26;
+                    text-shadow: black 0 0 3px;
+                    text-align: left;
+                    font-size: 30px;
+                }
+                .vhod{
+                    display: none;
+                    padding-right: 15px;
+                    color:#85f6ad;
+                    text-shadow: black 0 0 2px;
+                    padding-right: 120px;;
+                    font-size: 18px;
+                    margin-top: 42px;
+                }
+                .tele
+                {
+                    width: 40%;
+                    height: 300px;
+                    margin-left:110px;
+                    padding-left: 20px;
+                    background: #838382;
+                    color: #ffff;
+                    text-shadow: black 0 0 2px;
+                    text-align: left;
+                    font-size: 18px;
+                    line-height: 70px;
+                }
+                .lupa{
+                    width: 20px;
+                    height: 20px;
+                position: absolute;
+                margin-left: 1265px;
+                margin-top: -363px;
+                float: left;
+                }
+                .search1{
+                    color:#838382;
+                    margin-top:-370px ;
+                    float: left;
+                    margin-left: 700px;
+                    height:370px;
+                }
+                input {
+                    width: 600px; 
+                    height: 40px;
+                    color: #5f5f5f;
+                   background: none;
+                    font-size: 20px;
+                   }
+                .search {
+                    color:#838382;
+                    width: 600px; 
+                    border: 4px solid #000; 
+                    height: 40px; 
+                }
+                .map {
+                    width: 600px;
+                    height: 245px;
+                }
+                    .tar {
+                        margin-top: 70px;
+                        margin-bottom: 50px;
+                        font-size: 40px;
+                        color: #3e3e3e;
+                        margin-left: 400px;
+                      }
+                      .tar a {
+                        padding: 10px;
+                        border-top: 5px solid #838382;
+                        border-left: 5px solid #838382;
+                        border-right: 5px solid #838382;
+                        border-bottom: 5px solid #838382;
+                        background-color: #faee26;
+                      }
+                      
+                      .my_class {
+                        width: 40%;
+                        margin-top: 500px;
+                      }
+                      .my_class h4 {
+                        font-size: 16px;
+                        margin-top: 10px;
+                      }
+                      
+                      .acc {
+                        margin-left: 110px;
+                      }
+                      
+                      .ta {
+                        width: 600px;
+                        margin-left: 700px;
+                        margin-top: -317px;
+                        position: absolute;
+                      }
+                      .ta p {
+                        margin-left: 200px;
+                        font-size: 20px;
+                      }
+                      
+                      .vi {
+                        margin-left: -120px;
+                      }
+                      
+                      .big img {
+                        background-image: url("images/loader.gif");
+                        margin-left: 60px;
+                        width: 400px;
+                        height: 250px;
+                        margin-bottom: 18px;
+                      }
+                      
+                      .jig div img {
+                        margin-left: 60px;
+                        width: 400px;
+                        height: 250px;
+                        margin-bottom: 18px;
+                      }
+                      
+                      .jig h2 {
+                        margin-left:180px;
+                        margin-bottom: 10px;
+                      }
+                      
+                      .small a img {
+                        width: 70px;
+                        height: 50px;
+                        margin-right: 35px;
+                        z-index: 20;
+                      }
+                      
+                      .small table2 {
+                        width: 600px;
+                        margin-left: -13px;
+                        margin-top: 53px;
+                        position: absolute;
+                        font-size: 15px;
+                      }
+                      .small table2 tr2 td2 {
+                        margin-left: 20px;
+                      }
+                      
+                      .time h2 {
+                        margin-top: 17px;
+                        margin-left: 120px;
+                        margin-bottom: 17px;
+                        color: #3e3e3e;
+                        font-size: 19px;
+                      }
+                      
+                      .sort {
+                        width: 300px;
+                        margin-left: 220px;
+                        cursor: pointer;
+                      }
+                      
+                      .small table2 tr3 td2 {
+                        margin-left: 13px;
+                      }
+                      
+                      .vib {
+                        float: left;
+                        margin-left: 100px;
+                        color: #faee26;
+                        text-shadow: black 0 0 2px;
+                        font-size: 30px;
+                        transition: all 1.5s ease 0s;
+                        opacity: 0.5;
+                        margin-top: 200px;
+                      }
+                      
+                      .vib._active {
+                        transition: all 1.5s ease 0s;
+                        opacity: 1;
+                        margin-top: 120px;
+                      }
+                      .vibor *{
+                          font-size: 25px;
+                      }
+                      .vibor {
+                        width: 400px;
+                        float: left;
+                        font-size: 40px;
+                        line-height: 70px;
+                        transition: all 1s ease 0s;
+                        opacity: 0.5;
+                        margin-top: 40px;
+                      }
+                      .vibor li {
+                        background-color: #ededeb;
+                      }
+                      .vibor ul li a {
+                        border-top: 3px solid #838382;
+                        border-left: 3px solid #838382;
+                        border-right: 3px solid #838382;
+                        border-bottom: 3px solid #838382;
+                        background-color: #faee26;
+                      }
+                      .vibor li ul {
+                        background-color: #ededeb;
+                        width: 250px;
+                        text-align: right;
+                        font-size: 30px;
+                        line-height: 60px;
+                      }
+                      .vibor li ul li ul {
+                        text-align: center;
+                        width: 200px;
+                        line-height: 60px;
+                      }
+                      .vibor ul li ul a {
+                        line-height: 20px;
+                      }
+                      .vibor ul li a {
+                        color: #3e3e3e;
+                        transition: all 0.3s ease;
+                      }
+                      .vibor ul li a:hover {
+                        transition: all 0.2s ease;
+                        background: #faee26;
+                        box-shadow: 1px 5px 10px -5px black;
+                      }
+                      .vibor li:hover > ul {
+                        transition: all 0.5s ease;
+                        display: block;
+                      }
+                      
+                      .vibor._active {
+                        transition: all 1s ease 0s;
+                        margin-left: 220px;
+                        opacity: 1;
+                      }
+                      
+                      .zakaz {
+                        margin-left: 980px;
+                        padding-top: 300px;
+                        font-size: 37px;
+                        margin-top: 310px;
+                        margin-bottom: 100px;
+                      }
+                .zakaz a:hover {
+                    font-size: 43px;
+                    transition: all 0.25s ease;
+                  }
+                table{
+                    width: 1100px;
+                    text-align: center;
+                    font-size: 14px;
+                    margin-left: 120px;
+                    height: 400px;
+                }
+                td{
+                    padding-left: 30px;
+                }
+                .ssilki{
+                    transition: all 0.25s ease;
+                    width: 100px;
+                    height: 100px;
+                }
+                    .bot{
+                        margin-left: -80px;
+                        font-size: 25px;
+                        color: #ffff;
+                        text-shadow: black 0 0 2px;
+                        margin-top: 100px;
+                    }
+                    .bot1{
+                        margin: auto;
+                        font-size: 25px;
+                        margin-top: 100px;
+                        color: #ffff;
+                        text-shadow: black 0 0 2px;
+                    }
+                    .bot2 h3{ 
+                        margin-right: 20px;
+                        font-size: 25px;
+                        margin-top: 100px;
+                        color: #ffff;
+                        text-shadow: black 0 0 2px;
+                    }
+                    .bot1 a:hover {
+                        transition: all 0.25s ease;
+                        font-size: 33px;
+                    }
+}

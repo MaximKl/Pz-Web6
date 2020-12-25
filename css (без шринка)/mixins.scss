@@ -1,0 +1,24 @@
+%bots{
+    font-size: 30px;
+    margin-top: 100px;
+    color: #ffff;
+    text-shadow: black 0 0 2px;
+}
+@mixin search{
+    width: 800px;
+    height: 40px;
+}
+@mixin log44 {
+    text-shadow: black 1px 1px 3px;
+                color:#ffff;
+                &:hover{
+                    color: #00e4ff;
+                    font-size: 28px;
+                    transition: all 0.2s ease;
+                }
+            }
+            @mixin inp{
+        width: 300px;
+        text-align: center;
+        margin-left: 7px;
+            }
